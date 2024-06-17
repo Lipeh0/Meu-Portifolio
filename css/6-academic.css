@@ -1,0 +1,77 @@
+.academic__title {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--cor-de-title);
+}
+
+.academic__courses__item__title {
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: var(--cor-de-title);
+}
+.academic__courses__item__subtitle {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--cor-de-title);
+ 
+}
+.academic {
+    text-align: center;
+    background: #EAF2FD;
+    padding: 60px;
+    height: 33rem;
+}
+.academic__courses {
+    display: flex;
+    justify-content: center;
+}
+.academic__courses__box{
+    background: var(--cor-de-box);
+    margin: 10px 20px;
+    width: 25%;
+    height: 300px;
+}
+.academic__courses__box:hover{
+    width: 25.5%;
+    box-shadow: -0px 1px 20px var(--cor-azul-personalizado);
+    transition: 0.2s all;
+}
+.academic__courses__item__img-alura img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    margin: 62px auto;   
+}
+.academic__courses__item__img-proa img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    margin: 38px auto; 
+}
+.academic__courses__item__img-escoladanuvem img{
+    width: auto;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    margin: 64px auto;
+}
+.academic__courses__list li {
+  padding: 0;
+}
+.academic__courses__list {
+    padding: 0;
+}
+    

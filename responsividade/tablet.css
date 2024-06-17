@@ -1,0 +1,249 @@
+/*Tablet*/
+@media (max-width: 990px) { 
+
+    /* menu */
+        .menu__list__item {
+            display: none;
+        }
+        section.menu {
+            justify-content: space-between;
+            margin:0 25px;
+        }
+        
+        /* Intro */
+        .title__div {
+            margin: 1rem;
+            width: auto;
+        }
+        .title__profile{
+            height: auto;
+            width: 146px;
+        } 
+        .title__bio {
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+         
+        }
+        .title__subsection{
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;  
+        }
+        .title__network__item a {
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #464646;
+        }
+        /* Sobre */
+        .about__container {
+            padding: 15px 0;
+            margin:0 2.3rem;
+        }
+        .about__title {
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .about__paragraph {
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        /* Skills */  
+        .skills__title {
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;            
+        }
+        .skills__box{
+            width: 224px;
+            height: 118px;  
+            text-align: center; 
+            align-content: center;
+        }
+        .skills__box ul{
+            padding: 5px;
+        }
+        .skills__name{
+            margin: 20px;
+        }
+        /* Hobbies */ 
+        .hobbies__title{
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;  
+        }
+        .hobbies__box{
+            width: 224px;
+            height: 118px;  
+            text-align: center; 
+            align-content: center;
+        }
+        .hobbies__box ul{
+            padding: 5px;
+        }
+        .hobbies__name{
+            text-align: center;
+            margin: 20px auto;
+        }
+        /* Academic */ 
+        section.academic {
+          height: 19em;
+          padding: 20px;
+        }
+        .academic__courses{
+            height: 80%;
+            flex-wrap: wrap;
+        }
+        .academic__title {
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .academic__courses__box{
+            height: 7.5em;
+            width: 12em;
+            margin: 15px 10px;
+        
+        }
+        .academic__courses__item__img-alura img {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            align-items: center;
+            margin: 10px auto;   
+        }
+        .academic__courses__item__img-proa img{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            align-items: center;
+            margin: 10px auto; 
+        }
+        .academic__courses__item__img-escoladanuvem img{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            align-items: center;
+            margin: 10px auto;
+        }
+        .academic__courses__list {
+           padding: 0 ;
+           margin: 0;
+       }
+        .academic__courses__item__title {
+           font-family: Raleway;
+           font-size: 16px;
+           font-weight: 700;
+           line-height: 19px;
+           letter-spacing: 0em;
+           text-align: left;
+           width: 10.8em;
+       }
+        .academic__courses__item__title h4{
+            margin: 10px auto;   
+        }
+        .academic__courses__item__subtitle p{
+            margin: 0;
+        }
+        /* Exp */
+        .experiencie__box{
+            justify-content: start;
+        } 
+        .experience__img{
+            width: 700px;
+            height: 320px;
+        }
+        .experience__info{
+            align-items: center;
+            justify-content: start;
+            margin: 0 5px;
+        }
+       .experience__description{
+           display: flex;
+       }
+       .experience__section__title{
+           font-family: Raleway;
+           font-size: 22px;
+           font-weight: 700;
+           line-height: 26px;
+           letter-spacing: 0em;
+           text-align: center;   
+       }
+       .experiencie__box, .experiencie__box-left{
+           margin: 25px 50px;
+       }
+       .experiencie__box-left{
+           justify-content: start;
+       }
+       .experience__title{
+           font-family: Raleway;
+           font-size: 16px;
+           font-weight: 700;
+           line-height: 19px;
+           letter-spacing: 0em;
+           text-align: left;
+       }
+       .experience__text{
+           font-family: Raleway;
+           font-size: 14px;
+           font-weight: 500;
+           line-height: 16px;
+           letter-spacing: 0em;
+           text-align: left;
+       }
+       button.experiencia__botao--repo, .experiencia__botao--demo{
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 16px;
+            text-align: center;
+            height: 40px;
+            padding: 0;
+            width: 108px;
+       }
+
+        /* Contato */
+        .formcontato__text{
+            margin: 0 51px;
+        }
+        .formcontato__contacto{
+           justify-content: start;
+       }
+        .formcontato__img{
+           display: none;
+       } 
+    }
+    @media (max-width: 676px){
+     section.academic{
+        height: 33em;
+     }
+     
+    }

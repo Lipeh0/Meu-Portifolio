@@ -1,0 +1,92 @@
+@media (max-width: 510px) {
+section.menu {
+    margin: 0 8px;
+}
+.title__container {
+    padding: 10px;
+}
+    /*Sobre*/ 
+.title__div {
+    flex-direction: row;
+}
+.title__profile{
+   align-items: start;
+   text-align: start;
+}
+img.title__profile {
+   height: 125px;
+   width: 130px;
+   margin-right: 10px;
+}
+.title__bio {
+   margin: 0;
+}
+.about__container{
+    margin: 0 23px;
+
+}
+
+@media (max-width: 495px){
+    .title__network__item a{
+        margin-right: 60px;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+    .skills__box{
+       width: 150px;
+       height: 150px;
+       align-items: center;
+    }
+    .skills__box ul{
+        padding: 20px 0;
+        align-items: center;
+    }
+    .hobbies__box {
+        width: 150px;
+        height: 150px;
+    }
+    .hobbies__name{
+        text-align: center;
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 463px){
+
+    /*Academic */
+    section.academic{
+        height: auto;
+        padding-bottom: 65px;
+    }
+    .academic__courses{
+        height: 40em;
+    }
+    .academic__courses__box {
+        width: 100%;
+    }
+    .academic__courses__item__img img{
+    }
+    .academic__courses__list li {
+        padding: 0;
+    }
+    button.experiencia__botao--repo, .experiencia__botao--demo{
+        width: 95px;
+    }
+    /* Exp */ 
+    .experience__img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 383px){
+    .title__profile{
+        margin-left: 11px;
+    }
+    .menu__list__item-contato a{
+          font-size: 14px;
+        }
+
+}
+}

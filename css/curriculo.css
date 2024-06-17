@@ -1,0 +1,64 @@
+.curriculo {
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.curriculo__title {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: var(--cor-de-title);   
+    margin: 80px auto;
+}
+.curriculo__img{
+    max-width: 80%; /* Permite que a imagem não exceda a largura do seu contêiner */ 
+    box-shadow: 8px 5px 15px rgb(146, 146, 146);
+}
+.menu__list__item-contato a {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #464646;
+}
+.button {
+    text-align: center;
+    margin: 60px auto;
+}
+.button__home {
+    padding: 16px;
+    border: 1px;
+    gap: 10px;
+    margin: 0 5px;
+    border: var(--cor-azul-personalizado) 1px solid;
+    background: #eaf2ff;
+    color: var(--cor-azul-personalizado);
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center
+}
+.curriculo__button {
+    padding: 16px;
+    border: 1px;
+    gap: 10px;
+    margin: 0 5px;
+    border: var(--cor-azul-personalizado) 1px solid;
+    background: var(--cor-azul-personalizado);
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+}
